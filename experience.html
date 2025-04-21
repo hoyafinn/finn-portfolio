@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/scss/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!-- found this code and adapted it from https://github.com/bedimcode/portfolio-responsive-complete -->
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Finn</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="education.html" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="experience.html" class="nav__link active-link">Experience</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="bd-grid experience__container">
+                    <div class="experience__item">
+                        <div class="experience__item__img">
+                            <img src="assets/img/hyperbolic_labs_logo.jpeg" alt="" srcset="">
+                        </div>
+                        <div>
+                            <div class="experience__item__header">
+                                <div>
+                                    <h3 class="experience__company">HYPERBOLIC LABS</h3>
+                                </div>
+                                <div class="experience__item__header__date">
+                                    <p class="experience__date">Oct 2024 – Present</p>
+                                    <p class="experience__location">Washington, DC</p>
+                                </div>
+                            </div>
+                            <p class="experience__role">Regional Manager, Americas (North/South) </p>
+                            <ul class="experience__list">
+                                <li>Launched “AI After Hours,” a cross-platform event series, growing from 0 to 1,000+ members and hosting IRL meetups from SF to NYC.</li>
+                                <li>Presented ZK & MPC-based privacy tech to audiences ranging from VCs to protocol engineers, translating crypto concepts into actionable insights.</li>
+                                <li>Built a scalable BD playbook streamlining partnerships, onboarding, and retention across the Americas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                         <div class="experience__item__img">
+                            <img src="assets/img/avalabsofficial_logo.jpeg" alt="" srcset="">
+                        </div>
+                        <div>
+                             <div class="experience__item__header">
+                                <div>
+                                    <h3 class="experience__company">AVA LABS</h3>
+                                </div>
+                                <div class="experience__item__header__date">
+                                    <p class="experience__date">Aug 2023 – Jan 2024</p>
+                                    <p class="experience__location">New York, NY</p>
+                                </div>
+                            </div>
+                            <p class="experience__role">Technical Product Support Intern</p>
+                            <ul class="experience__list">
+                                <li>Proposed and inspired Ava, an AI assistant for support, influencing AI integration into Avalanche’s user experience.</li>
+                                <li>Authored technical docs on subnets, bridging, validators, and wallets, reducing ticket volume by 25%.</li>
+                                <li>Drove 60%+ user engagement via demo-driven X content through @avax & @avaxtechsupport.</li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                    <div class="experience__item">
+                         <div class="experience__item__img">
+                            <img src="assets/img/edgeapp_logo.jpeg" alt="" srcset="">
+                        </div>
+                        <div>
+                            <div class="experience__item__header">
+                                <div>
+                                    <h3 class="experience__company">EDGE WALLET</h3>
+                                </div>
+                                <div class="experience__item__header__date">
+                                    <p class="experience__date">May 2020 – Aug 2023</p>
+                                    <p class="experience__location">San Diego, CA</p>
+                                </div>
+                            </div>
+                            <p class="experience__role">BD, QA & Technical Support </p>
+                            <ul class="experience__list">
+                                <li>Acted as the bridge between technical & non-technical teams, crafting content on encryption and key security.</li>
+                                <li>Represented Edge at events like ETH Denver, onboarding users with a focus on UX and wallet interoperability.</li>
+                                <li>Self-taught QA automation, reducing manual testing by 30% and boosting deployment speed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Finn Sadler</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
