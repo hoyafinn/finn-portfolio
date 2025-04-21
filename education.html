@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/scss/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!-- found this code and adapted it from https://github.com/bedimcode/portfolio-responsive-complete -->
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Finn</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="education.html" class="nav__link active-link">Education</a></li>
+                        <li class="nav__item"><a href="experience.html" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Education</h2>
+                <div class="bd-grid experience__container">
+                    <div class="experience__item">
+                        <div class="experience__item__img">
+                            <img src="assets/img/GU.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="experience__item__description">
+                            <div class="experience__item__header">
+                                <div>
+                                    <h3 class="experience__company">Georgetown University</h3>
+                                </div>
+                                <div class="experience__item__header__date">
+                                    <p class="experience__date">Expected Graduation: May 2025</p>
+                                    <p class="experience__location">Washington, DC</p>
+                                </div>
+                            </div>
+                            <p class="experience__role">Master of Science in Management (STEM-designated program)</p>
+                            <ul class="experience__list">
+                                <li>FinTech Club, Entrepreneurship & VC Club</li>
+                                <li>Leadership Council</li>
+                                <li>MiM Ambassador / Merit Scholar</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                         <div class="experience__item__img">
+                            <img src="assets/img/MC.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="experience__item__description">
+                             <div class="experience__item__header">
+                                <div>
+                                    <h3 class="experience__company">Menlo College</h3>
+                                </div>
+                                <div class="experience__item__header__date">
+                                    <p class="experience__date">Jan 2020 – May 2024</p>
+                                    <p class="experience__location">Atherton, CA</p>
+                                </div>
+                            </div>
+                            <p class="experience__role">Bachelor of Science, Entrepreneurship & Innovation</p>
+                            <ul class="experience__list">
+                                <li>Study Abroad: Dubai, United Arab Emirates - Jeddah, Saudi Arabia</li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+            
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Finn Sadler</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
